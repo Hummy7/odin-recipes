@@ -2,20 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Noodle Odin Recipes</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes w/ CSS</title>
+    <!-- This is a external linking -->
+    <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <h1>Noodle Odin Recipes</h1>
+    <!-- Unique id for header -->
+    <div id="top-header">
+      <p>ODIN RECIPES</p>
+    </div>
 
-    <img src="./Images/View.jpg" width="700" height="500">
+    <!-- Adding image container by using descendant combinator -->
+    <div class="img-container"> 
+      <div class="column">
+        <a href="./recipes/soba.html"><img src="./images/Soba.png" alt="a delicous soba originated in japan" class="img-1"></a>
+        <div class="column">
+          <a href="./recipes/ramen.html"><img src="./images/Ramen.jpg" alt="a umai chicken ramn" class="img-2"></a>
+          <div class="column">
+             <a href="./recipes/yakisoba.html"><img src="./images/yakisoba.png" alt=" sugoi yakisoba made in japan" class="img-3"></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <p></p>Japan Noodles Recipes</p>
-    <ul>
-      <li><a href="Recipes/yakisoba.html">Classic Yakisoba</a></li>
-      <li><a href="Recipes/ramen.html">Shoyu Chicken Ramen</a></li>
-      <li><a href="Recipes/soba.html">Beef Soba</a></li> 
-    </ul>
+    
   </body>
-
 </html>
