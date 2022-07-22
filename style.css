@@ -1,0 +1,89 @@
+/* changing website background color */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202020;
+  color: #eaeaea;
+}
+
+/* odin recipes */
+#top-header p {
+  color: #eaeaea;
+  text-align: center;
+  font-family: monospace;
+  font-size: 36px;
+  text-shadow: 2px 2px 3px #77a6b3;
+
+}
+
+
+
+div img {
+  width:350px;
+  height:500px;
+}
+
+.column .img-1:hover, .img-2:hover, .img-3:hover { /*Hover selector use to select elements when you mouse over them*/
+  
+  /* this make the transition */
+  transform: scale(1.05); 
+  /* change property value smoothly */
+  transition: all ease ;
+  /* Rounds the corners of an element's outer border edge */
+  border-radius: 10px;
+  /* Adds shadow effects around an element's frame */
+  box-shadow: 0 0 20px #77a6b3;
+}
+
+.column {
+  /* This property palce an element on the left or right side of its container, allowing text and inline elements to wrap around it */
+  float: right;
+  width: auto;
+  /*paddin is use to generate space around an element's content, inside of any defined borders */
+  padding: 10px;
+  gap:10px;
+  align-items:center;
+
+  
+}
+
+.img-container {
+  content: "";
+  display: table;
+  clear: both;
+  justify-content: center;
+}
+
+.column .img-3 {
+  position: relative;
+  left: 210px;
+  bottom: 13px;
+}
+
+.column .img-2 {
+  position: relative;
+  left: 125px;
+  bottom: 5px;
+}
+
+.column .img-1 {
+  position: relative;
+  left: 40px;
+  top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
