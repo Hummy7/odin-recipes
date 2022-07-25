@@ -1,24 +1,5 @@
 
-body {
-  background-color: #202020;
-}
-
-.soba-img {
-  width: auto;
-  height: 360px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 50px;
-}
 
 
-.container {
-  background: #e5e5e5;
-  width: 600px;
-  /* sets the maximum width of the container */
-  max-width: 1000px;
-  /* what it's going to do is to make sure the margin on the left and margin on the right are always exactly the same  */
-  margin-left: auto;
-  margin-right: auto; /*This only works when the left margin adn the right margin are auto*/
-}
+
+
