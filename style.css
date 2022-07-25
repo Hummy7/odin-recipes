@@ -4,17 +4,18 @@
 }
 
 body {
-  background-color: #202020;
+  background-color: #070c10;
   color: #eaeaea;
 }
 
 /* odin recipes */
 #top-header p {
-  color: #eaeaea;
+  color: #ffff;
   text-align: center;
   font-family: monospace;
   font-size: 36px;
-  text-shadow: 2px 2px 3px #77a6b3;
+  text-shadow: 25px 5px 25px #1e263b;
+  font-weight: 25px;
 
 }
 
@@ -34,7 +35,7 @@ div img {
   /* Rounds the corners of an element's outer border edge */
   border-radius: 10px;
   /* Adds shadow effects around an element's frame */
-  box-shadow: 0 0 20px #77a6b3;
+  box-shadow: 0 0 70px #1e263b;
 }
 
 .column {
