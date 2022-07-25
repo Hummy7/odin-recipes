@@ -1,0 +1,37 @@
+body {
+  background-color: #070c10;
+  color: #fdfdfd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContainer {
+  background: #141a26;
+  position: relative;
+  width: 700px;
+  height: 1500px;
+  /* sets the maximum width of the container */
+  max-width: 1000px;
+  /* what it's going to do is to make sure the margin on the left and margin on the right are always exactly the same  */
+  margin-left: auto;
+  margin-right: auto; /*This only works when the left margin adn the right margin are auto*/
+  top: ;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 50px;
+  border-radius: 50%;
+}
+
+.ingredientsContainer {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
