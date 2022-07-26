@@ -1,20 +1,19 @@
 body {
   background-color: #070c10;
-  color: #fdfdfd;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #b3b8bc;
+  font-family: raleWayFont;
 }
 
 .mainContainer {
   background: #141a26;
   position: relative;
   width: 700px;
-  height: 1500px;
+  height: 3250px;
   /* sets the maximum width of the container */
   max-width: 1000px;
   /* what it's going to do is to make sure the margin on the left and margin on the right are always exactly the same  */
-  margin-left: auto;
+  margin-left: auto;  
   margin-right: auto; /*This only works when the left margin adn the right margin are auto*/
-  top: ;
 }
 
 .img {
@@ -23,15 +22,133 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  bottom: 50px;
+  position: relative;
   border-radius: 50%;
+  top: 70px;
 }
+
+
+.recipeTitle {
+  text-align: center;
+  position: relative;
+  bottom: 320px;
+  font-family: audreyFont;
+  font-size: 40px;
+  color: #77a6b3;
+}
+
+.recipeDescription {
+  max-width: 550px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+
+}
+
+.ingredientsText, .instructionsText {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: audreyFont;
+  font-size: 22px;
+  bottom: 50px;
+  color: #fdfdfd;
+}
+
+.ingredientsText {
+  position: relative;
+  top: 50px;
+  right: 25px;
+}
+
+
+
 
 .ingredientsContainer {
   position: relative;
-  display: inline-block;
+  /* Display sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex. */
+  display: flex;
+  justify-content: center;
+  /* This property sets the align-self value on all direct children as a group. */
+  align-items: center;
+  /* Flex-direction sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed). */
+  flex-direction: column;
+  right: 80px;
+  top: 100px;
+}
+
+
+.instructionsContainer {
+  position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  max-width: 550px;
+  top: 210px;
+  left: 50px;
+}
+
+.soySauceText {
+  position: relative;
+  right: 122px;
+}
+
+.marinatedSauceText {
+  position: relative;
+  right: 58px;
+}
+
+.glazeChickenText, .classicRamenText, .regularEggsText, .steamedGreensText, .ramenToppingsText, .ramenText, .boiledEggText, .toServeText {
+  position: relative;
+  left: 22px;
+}
+
+.soySauceSteps li, .ramenSteps li, .boiledEggSteps li, .steamedGreensSteps li, .toServeSteps li {
+  margin-bottom: 20px;
+}
+
+.soySauceText, .ramenText, .boiledEggText, .steamedGreensText, .toServeText, .marinatedSauceText, .glazeChickenText, .classicRamenText, .regularEggsText, .ramenToppingsText {
+  font-family: comfortaaFont;
+  font-size: 20px;
+  color: #f4cb93;
+}
+
+/* ading border style on main container */
+.mainContainer {
+  border: 2px ridge;
+  border-color: black; /*Border color allow us to change the color of the specific border*/
+
+  /* Padding property generate space around an element's content, inside of any defined borders */
+  padding: 10px; 
+  box-shadow: 12px 8px 12px -2px black;
+}
+
+img {
+  /* This enable us to make a shadow in our image */
+  border:1px ridge #0d1010; /*border property allow you to specify the style, width, and color of an element's border.*/
+  box-shadow: 0px 6px 8px #0d1010; /*This property cast a drop shadow from the frame of almost any element*/
+}
+
+
+
+
+
+
+/* Font face allow us to import an custom font externally */
+@font-face {
+  font-family: audreyFont;
+  src: url(customFonts/Audrey-Medium.otf);
+}
+
+@font-face {
+  font-family: raleWayFont;
+  src: url(customFonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: comfortaaFont;
+  src: url(customFonts/Comfortaa-Regular.ttf);
 }
