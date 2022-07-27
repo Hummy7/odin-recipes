@@ -1,0 +1,124 @@
+body {
+  background-color: #070c10;
+  color: #b3b8bc;
+  font-family: raleWayFont;
+}
+
+.mainContainer {
+  background-color: #141a26;
+  width: 700px;
+  height: 4000px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipeImage {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border-radius: 50%;
+  top: 25px;
+}
+
+#recipeTitle {
+  text-align: center;
+  position: relative;
+  font-family: audreyFont;
+  font-size: 40px;
+  color: #77a6b3;
+  top: 12px;
+}
+
+.recipeDescription {
+  max-width: 570px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  top: 50px;
+  font-size: 16.5px;
+}
+
+.instructionsContainer, .ingredientsContainer {
+  position: relative;
+  align-items: center;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  left: 55px;
+}
+
+.ingredientsText, .instructionText {
+  color: #fdfdfd;
+  font-size: 22px;
+  font-family: audreyFont;
+  position: relative;
+  position: relative;
+}
+
+.ingredientsText {
+  bottom: 70px;
+}
+
+.instructionText {
+  top: 20px;
+}
+
+
+.ingredientsList li {
+  position: relative;
+  bottom: 40px;
+  right: 35%;
+  margin-bottom: 10px
+
+}
+
+.instructionsSteps {
+  position: relative;
+  top: 60px;
+}
+
+.instruction-img {
+  width: auto;
+  height: 300px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+
+.recipeImage {
+  border:1px ridge #0d1010; 
+  box-shadow: 0px 6px 8px #0d1010; 
+}
+
+.mainContainer {
+  border: 2px ridge;
+  border-color: black; /*Border color allow us to change the color of the specific border*/
+
+  /* Padding property generate space around an element's content, inside of any defined borders */
+  padding: 10px; 
+  box-shadow: 12px 8px 12px -2px black;
+}
+
+
+/* Font face allow us to import an custom font externally */
+@font-face {
+  font-family: audreyFont;
+  src: url(customFonts/Audrey-Medium.otf);
+}
+
+@font-face {
+  font-family: raleWayFont;
+  src: url(customFonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: comfortaaFont;
+  src: url(customFonts/Comfortaa-Regular.ttf);
+}
