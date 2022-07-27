@@ -106,6 +106,15 @@ body {
   box-shadow: 12px 8px 12px -2px black;
 }
 
+.recipeImage:hover {
+   /* this make the transition */
+   transform: scale(1.03); 
+   /* change property value smoothly */
+   transition: all ease ;
+   /* Adds shadow effects around an element's frame */
+   box-shadow: 0 0 70px black;
+}
+
 
 /* Font face allow us to import an custom font externally */
 @font-face {

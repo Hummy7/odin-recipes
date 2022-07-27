@@ -132,6 +132,15 @@ img {
   box-shadow: 0px 6px 8px #0d1010; /*This property cast a drop shadow from the frame of almost any element*/
 }
 
+img:hover {
+   /* this make the transition */
+   transform: scale(1.03); 
+   /* change property value smoothly */
+   transition: all ease ;
+   /* Adds shadow effects around an element's frame */
+   box-shadow: 0 0 70px black;
+}
+
 
 
 
